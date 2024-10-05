@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;  
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+.header__nav{
+    background: none;
+    padding: 50px 0;
+}
+
+.header__nav-list{
+    display: flex;
+    padding: 79px 0 0;
+    gap: 30px;
+    justify-content: center;
+}
+
+.header__nav-list a{
+    color: #808080;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.block{
+   padding-top: 30px;
+   display: block;
+   margin: auto;
+}
+
+.left{
+    max-width: 730px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F0;
+    height: 500px;
+}
+.left .title{
+    color: #4581B7;
+    font-size: 20px;
+    padding: 50px 40px 23px;
+}
+.left .paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    max-width: 595px;
+    height: 351px;
+    padding-left: 40px;
+    padding-right: 95px;
+    font-family: "Roboto", sans-serif;
+    line-height: 27px;
+}
+
+.right{
+    max-width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F0;
+}
+.right .moy{
+    color: #4581B7;
+    font-size: 20px;
+    padding: 50px 40px 0;
+}
+.right .chelovek{
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    padding: 25px 40px 24px;
+    padding-right: 24px;
+    line-height: 27px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.silka{
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    padding: 25px 40px 24px;
+    padding-right: 24px;
+    line-height: 27px;
+}
+.silka2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    padding: 25px 40px 24px;
+    padding-right: 24px;
+    line-height: 27px;
+    margin-top: 100px;
+}
